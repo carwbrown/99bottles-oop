@@ -17,8 +17,6 @@ class Bottles
   end
 end
 
-# TODO ch 6.3 pg 140
-
 class BottleNumber
   def self.for(num)
     case num
