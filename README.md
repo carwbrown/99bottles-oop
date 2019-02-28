@@ -41,6 +41,8 @@ ruby test/bottles_test.rb
 - Data Clump (code smell) - defined as the situation in which several (3+) data fields routinely occur together
 - Replace Conditional with State/Strategy (code smell) - creates object to hold logic from the branch of conditionals, called conditionals
 - Replace Conditional with Polymorphism (code smell) - creates object to hold logic from the branch of conditionals via inheritance
+- Polymorphism - having many different kinds of objects that respond to the same message.
+- Factory - manufactures an instance of the right kind of object
 
 ### Flocking Rules
 
@@ -55,4 +57,20 @@ ruby test/bottles_test.rb
 ### Liskov Principle
 defintition: `Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.` <br />
 example: ```If it looks like a duck, quacks like a duck, but needs batteries - You probably have the wrong abstraction```
+
+### Canons
+- Strive for Simplicity
+- Don't abstract too soon
+- Focus on smells
+- Concentrate on Differences
+- Take small steps
+- Follow the flocking rules
+- Refactor under green
+- Fix the easy problems first
+- Work horizontally
+- Seek stable landing points
+- Be disciplined
+- Don't chase the shiny thing
+- Deal with new requirements by first refactoring existing code to be open to them, then write the new code to meet them
+- you may need better tests
 
